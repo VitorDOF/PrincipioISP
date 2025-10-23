@@ -1,9 +1,9 @@
 ﻿namespace PrincipioISP.ComISP
 {
     //Com o ISP
-    class CadastrarProduto : IPersistencia
+    class CadastrarProduto : IValidaDados, ISalvaDados
     {
-        public void SalvarDataBase()
+        public void SalvarDados()
         {
             Console.WriteLine("Salva Dados");
         }

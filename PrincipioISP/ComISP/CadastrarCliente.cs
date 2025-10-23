@@ -1,8 +1,8 @@
 ﻿namespace PrincipioISP.ComISP
 {
-    internal class CadastrarCliente : IPersistencia, IMensagemEmail
+    internal class CadastrarCliente : IValidaDados, ISalvaDados, IMensagemEmail
     {
-        public void SalvarDataBase()
+        public void SalvarDados()
         {
             Console.WriteLine("Salva Dados");
         }

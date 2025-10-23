@@ -1,9 +1,7 @@
 ﻿namespace PrincipioISP.ComISP
 {
-    interface IPersistencia
+    interface IValidaDados
     {
         void ValidarDados();
-        void SalvarDataBase();
-
     }
 }
